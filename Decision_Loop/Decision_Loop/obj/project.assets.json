@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eBayo\\source\\repos\\LearnFromHome\\Decision_Loops\\Decision_Loops\\Decision_Loops.csproj",
-      "projectName": "Decision_Loops",
-      "projectPath": "C:\\Users\\eBayo\\source\\repos\\LearnFromHome\\Decision_Loops\\Decision_Loops\\Decision_Loops.csproj",
+      "projectUniqueName": "C:\\Users\\eBayo\\source\\repos\\LearnFromHome\\Decision_Loop\\Decision_Loop\\Decision_Loop.csproj",
+      "projectName": "Decision_Loop",
+      "projectPath": "C:\\Users\\eBayo\\source\\repos\\LearnFromHome\\Decision_Loop\\Decision_Loop\\Decision_Loop.csproj",
       "packagesPath": "C:\\Users\\eBayo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eBayo\\source\\repos\\LearnFromHome\\Decision_Loops\\Decision_Loops\\obj\\",
+      "outputPath": "C:\\Users\\eBayo\\source\\repos\\LearnFromHome\\Decision_Loop\\Decision_Loop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
