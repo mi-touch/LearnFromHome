@@ -11,6 +11,7 @@ namespace Decision_Loop
             int StdNo = int.Parse(Console.ReadLine());
             int StdCalc = 0;
             do {
+                StdCalc++;
                 Console.WriteLine("Enter the number of courses offered by this student");
                 int courseNo = int.Parse(Console.ReadLine());
                 List<double> scoreList = new List<double>();
