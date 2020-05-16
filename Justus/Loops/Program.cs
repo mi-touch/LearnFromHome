@@ -7,52 +7,33 @@ namespace Loops_Assignment
     {
         static void Main(string[] args)
         {
-          /*  Console.WriteLine("Enter a number ");
-
-            int num = int.Parse(Console.ReadLine());
-
-            for (int i = 0; i < num; i++)
-            {
-                if (i%3!=0 && i%7!=0)
+            string decision = String.Empty;
+              do
                 {
-                    Console.WriteLine(i);
-                }
-            }*/
+                    Console.WriteLine("Please Enter a binary value");
+                    string num = Console.ReadLine();
+                    int length = num.Length;
+                    double Answer = 0;
+                    Console.WriteLine("This is " + num);
 
-           // Console.WriteLine("Hello");
-            string num = (Console.ReadLine());
-            int length = num.Length;
-            List<double> nums = new List<double>();
-
-            //Console.WriteLine("This is " + num);
-            foreach (var number in  num)
-            {
-                //Console.WriteLine(number);
-                if (number !='1' && number !='0') //|| number == 1)
-                {
-                    Console.WriteLine("This number is not a binary");
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("The number {0} is a binary number", number);
-
-                    /*for (int j = 0; j < length; j++)
+                    foreach (var number in num)
                     {
-                        //double [] nums = new double[] {};
-                        nums.Add(Math.Pow(j,2) * number);
-
-                        Console.WriteLine(nums);
-                    }*/
-
-                    
-                    
-                }
-            }
-           
-                     
-
-
+                        int power = length - 1;
+                        if (number != '1' && number != '0')
+                        {
+                            Console.WriteLine("This number is not a binary");
+                            break;
+                        }
+                        else
+                        {
+                            Answer += Math.Pow(2, power) * double.Parse(number.ToString());
+                            length--;
+                        }
+                    }
+                    Console.WriteLine("The equaivalent value of {0} is {1}", num, Answer);
+                    Console.WriteLine("Do you want to continue conversion, write yes or no");
+                    decision = Console.ReadLine();
+                } while (decision.ToLower() == "yes");
         }
     }
 }
